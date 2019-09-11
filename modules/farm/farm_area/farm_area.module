@@ -659,22 +659,22 @@ function farm_area_default_units($measure = 'area', $size = 'big') {
   $default_units = array(
     'metric' => array(
       'area' => array(
-        'big' => 'hectares',
-        'small' => 'square meters',
+        'big' => t('hectares'),
+        'small' => t('square meters'),
       ),
       'length' => array(
-        'big' => 'kilometers',
-        'small' => 'meters',
+        'big' => t('kilometers'),
+        'small' => t('meters'),
       ),
     ),
     'us' => array(
       'area' => array(
-        'big' => 'acres',
-        'small' => 'square feet',
+        'big' => t('acres'),
+        'small' => t('square feet'),
       ),
       'length' => array(
-        'big' => 'miles',
-        'small' => 'feet',
+        'big' => t('miles'),
+        'small' => t('feet'),
       ),
     ),
   );
