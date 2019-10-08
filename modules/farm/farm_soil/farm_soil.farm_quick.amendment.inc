@@ -274,7 +274,7 @@ function farm_soil_amendment_form($form, &$form_state) {
     '#type' => 'select',
     '#title' => t('Method of application'),
     '#options' => drupal_map_assoc(array(
-      t('Broadcast'),
+      t('Broadcast',  [], ['context' => 'amendment']),
       t('Sidedress'),
       t('Foliar'),
       t('Other'),
